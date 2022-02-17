@@ -49,7 +49,7 @@ class Shardle(DiscGame):
             g = [-1 for j in range(size+1)]
             self.guess_board.append(g)
 
-        with open('data\words.txt','r') as file:
+        with open('data/words.txt','r') as file:
             all_words = ''.join(line for line in file)
 
 
