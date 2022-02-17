@@ -120,7 +120,7 @@ class Shardle(DiscGame):
             await self.info_msg.edit(content="Invalid word")
 
     async def print_game_board(self):
-        print(f'the shardle is: {self.word}')
+        #print(f'the shardle is: {self.word}')
         count = 0
         board = ''
         for e in self.game_board:
